@@ -1,0 +1,17 @@
+.BackgroundMiddleHomeImg {
+  width: 550px;
+  position: absolute;
+  right: 110px;
+  top: -150px;
+}
+
+.HomePageBackgroundMiddleText {
+  transform: translateY(-100px);
+}
+
+@media (max-width: 991px) {
+  .BackgroundMiddleHomeImg {
+    width: 400px;
+    right: 80px;
+  }
+}

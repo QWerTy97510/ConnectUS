@@ -1,0 +1,70 @@
+.BackgroundBottom {
+  width: 100%;
+  height: calc(396px - 80px);
+  background: url('../../assets/Background\ SVG-uri/PurpleSVG.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  bottom: -20px;
+}
+
+.ArrowRight {
+  position: absolute;
+  width: 50px;
+  right: 110px;
+  bottom: 100px;
+  transition: transform 0.2s ease-out;
+}
+
+.ArrowLeft {
+  position: absolute;
+  width: 50px;
+  left: 110px;
+  bottom: 100px;
+  transform: rotate(180deg);
+  transition: transform 0.2s ease;
+}
+
+.ArrowRight:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.ArrowLeft:hover {
+  transform: rotate(180deg) scale(1.1);
+  cursor: pointer;
+}
+
+.ArrowRight:active {
+  transform: scale(0.9);
+}
+
+.ArrowLeft:active {
+  transform: rotate(180deg) scale(0.9);
+}
+
+@media (max-width: 991px) {
+  .BackgroundBottom {
+    height: calc(396px - 100px);
+  }
+  .ArrowRight {
+    right: 80px;
+  }
+  .ArrowLeft {
+    left: 80px;
+  }
+}
+
+@media (max-width: 767px) {
+  .BackgroundBottom {
+    height: calc(396px - 80px);
+  }
+  .ArrowRight {
+    right: 50px;
+    width: 40px;
+  }
+  .ArrowLeft {
+    left: 50px;
+    width: 40px;
+  }
+}

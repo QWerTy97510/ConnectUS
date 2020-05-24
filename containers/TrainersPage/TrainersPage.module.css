@@ -1,0 +1,15 @@
+.TrainersPage {
+  margin-left: 110px;
+  margin-right: 110px;
+  width: auto;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 991px) {
+  .TrainersPage {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+}

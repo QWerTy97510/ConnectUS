@@ -1,0 +1,13 @@
+.Dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  background-color: #fcf7ff;
+}
+
+@media (max-width: 767px) {
+  .Dot {
+    width: 12px;
+    height: 12px;
+  }
+}

@@ -1,0 +1,19 @@
+.Header {
+  width: 100vw;
+  height: 100px;
+  background: transparent;
+}
+
+h1 {
+  line-height: 100px;
+  width: 80%;
+  font-size: 38px;
+  color: #2f2e41;
+  margin-left: 110px;
+}
+
+@media (max-width: 991px) {
+  h1 {
+    margin-left: 80px;
+  }
+}

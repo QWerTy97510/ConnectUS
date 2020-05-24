@@ -1,0 +1,35 @@
+.InputDiv {
+  width: 100%;
+  height: 30px;
+  margin-top: 30px;
+  line-height: 30px;
+  position: relative;
+}
+
+.Input {
+  width: 90%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  padding: 5px;
+  color: #fcf7ff;
+  position: relative;
+  z-index: 5;
+}
+
+.Span {
+  content: '';
+  width: 0%;
+  height: 110%;
+  border-bottom: 2px solid #9550ff;
+  position: absolute;
+  left: 45%;
+  transition: all 0.5s;
+}
+
+.Input:focus ~ .Span {
+  left: 0;
+  width: 90%;
+}
